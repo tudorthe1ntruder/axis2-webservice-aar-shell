@@ -1,0 +1,6 @@
+<service>
+	<parameter name="ServiceClass" locked="false">wsshell</parameter>
+	<operation name="execute">
+		<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+	</operation>    
+</service>
